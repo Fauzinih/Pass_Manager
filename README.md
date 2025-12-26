@@ -49,15 +49,14 @@ password-management/
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/Fauzinih/Pass_Management_System.git
-cd password_management_system
+git clone https://github.com/Fauzinih/Pass_Manager.git
+cd Pass_Manager
 ```
 #### 2. Install Dependency
 ```bash
 npm install
 ```
 #### 3. Konfigurasi Environment
-Buat file .env.local di root proyek, lalu isi dengan kredensial dari Supabase:
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
